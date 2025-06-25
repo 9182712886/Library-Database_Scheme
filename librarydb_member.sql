@@ -26,6 +26,7 @@ CREATE TABLE `member` (
   `member_id` int NOT NULL,
   `name` varchar(45) NOT NULL,
   `email` varchar(45) NOT NULL,
+  `phone` varchar(45) NOT NULL,
   PRIMARY KEY (`member_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
