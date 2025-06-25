@@ -1,5 +1,2 @@
--- Delete a book and related entries (cascade)
-DELETE FROM Book WHERE book_id = 2;
-
--- Delete a member and their loans
-DELETE FROM Member WHERE member_id = 101;
+-- Delete a book_id in book_autho
+DELETE FROM book_author WHERE book_id = 3;
