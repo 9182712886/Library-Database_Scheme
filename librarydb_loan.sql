@@ -26,7 +26,7 @@ CREATE TABLE `loan` (
   `loan_id` int NOT NULL,
   `book_id` int DEFAULT NULL,
   `member_id` int DEFAULT NULL,
-  `loan_date` date DEFAULT NULL,
+  `issue` date DEFAULT NULL,
   `return_date` date DEFAULT NULL,
   PRIMARY KEY (`loan_id`),
   KEY `book_id_idx` (`book_id`),
